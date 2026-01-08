@@ -1,1 +1,1 @@
-# tyokkari-dev
+# tyokkari-app
