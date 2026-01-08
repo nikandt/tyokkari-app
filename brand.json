@@ -1,0 +1,61 @@
+{
+"brand_key": "tyokkari",
+"domain_name": "xn--tykkri-eua5l.fi",
+"allowed_hosts": [
+  "xn--tykkri-eua5l.fi",
+  "staging.xn--tykkri-eua5l.fi",
+  "www.xn--tykkri-eua5l.fi",
+  "tyokkari.fi",
+  "www.tyokkari.fi",
+  "staging.tyokkari.fi"
+],
+"display_name": "Työkkäri",
+"identity": {
+	"tagline": "Find work, track hours, get paid",
+	"logo_letter": "T",
+	"css_class": "brand-tyokkari",
+	"footer_description": "Find freelance, part-time, and full-time work opportunities. Track hours and get paid smoothly."
+  },
+"meta": {
+  "title": "Työkkäri | Find work, track hours, get paid",
+  "description": "Discover freelance, part-time and full-time jobs, track your hours and get paid smoothly.",
+  "ogTitle": "Työkkäri | Work, hours and payroll in one place",
+  "ogDescription": "Create your candidate profile, browse jobs, submit hour reports and get paid.",
+  "ogImage": "https://staging.xn--tykkri-eua5l.fi/mockup.png",
+  "twitterCard": "summary_large_image"
+},
+"supported_languages": ["fi", "en", "sv"],
+"public": {
+	"about": true,
+	"support": true,
+	"pricing": false,
+	"landing": true,
+	"faq": true,
+	"privacy": true,
+	"terms": true,
+	"dpa": true
+},
+"public_extras": {
+	"jobs": true
+},
+"features": {
+  "home": true,
+  "invoicing": false,
+  "reminders": false,
+  "crm": true,
+  "jobs": true,
+  "billing": true,
+  "commissioner_view": true,
+  "work_reports": true,
+  "hr_management": true,
+  "pricing": false,
+  "products": false,
+  "credits": false,
+  "integrations": false,
+  "matchmaking": false
+},
+"support": {
+  "email": "support@xn--tykkri-eua5l.fi"
+}
+}
+
