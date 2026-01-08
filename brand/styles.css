@@ -1,0 +1,38 @@
+/* Työkkäri Brand Theme - Teal/Green for Jobs Platform */
+/* Apply these rules to the root element when the brand-tyokkari class is active */
+html.brand-tyokkari {
+    /* Colors (HSL values) */
+    --primary: 173 80% 40%;
+    --primary-foreground: 0 0% 100%;
+    
+    --secondary: 173 60% 95%;
+    --secondary-foreground: 173 80% 20%;
+    
+    --accent: 173 70% 92%;
+    --accent-foreground: 173 80% 35%;
+    
+    --ring: 173 80% 40%;
+
+    /* Fonts */
+    --font-heading: 'Inter', sans-serif; /* Työkkäri uses Inter for headings */
+    --font-body: 'Inter', sans-serif;      /* Työkkäri uses Inter for body */
+    
+    /* Gradients for hero */
+    --gradient-hero: linear-gradient(120deg, hsl(173 80% 40% / 0.12) 0%, hsl(173 70% 92% / 0.4) 50%, hsl(173 60% 95% / 0.2) 100%);
+    --gradient-pattern: radial-gradient(circle at 30% 30%, hsl(173 80% 40% / 0.1) 0%, transparent 50%), radial-gradient(circle at 70% 70%, hsl(173 70% 50% / 0.08) 0%, transparent 50%), radial-gradient(circle at 50% 90%, hsl(173 60% 60% / 0.06) 0%, transparent 40%);
+}
+
+/* Työkkäri Dark Theme */
+html.dark.brand-tyokkari {
+    --primary: 173 70% 50%;
+    --primary-foreground: 0 0% 100%;
+    
+    --accent: 173 32% 22%;
+    --accent-foreground: 173 70% 70%;
+    
+    --ring: 173 70% 50%;
+    
+    /* Gradients for hero - darker versions */
+    --gradient-hero: linear-gradient(120deg, hsl(173 70% 50% / 0.15) 0%, hsl(173 32% 22% / 0.35) 50%, hsl(173 32% 22% / 0.2) 100%);
+    --gradient-pattern: radial-gradient(circle at 30% 30%, hsl(173 70% 50% / 0.12) 0%, transparent 50%), radial-gradient(circle at 70% 70%, hsl(173 70% 60% / 0.1) 0%, transparent 50%), radial-gradient(circle at 50% 90%, hsl(173 60% 70% / 0.08) 0%, transparent 40%);
+}

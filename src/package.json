@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@nikandt/pinot-client": "git+ssh://git@github.com/nikandt/pinot-client.git#v0.3.0"
+  }
+}

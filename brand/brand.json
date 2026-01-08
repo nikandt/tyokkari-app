@@ -1,4 +1,5 @@
 {
+	"schema_version": 1,
 "brand_key": "tyokkari",
 "domain_name": "xn--tykkri-eua5l.fi",
 "allowed_hosts": [
@@ -24,7 +25,24 @@
   "ogImage": "https://staging.xn--tykkri-eua5l.fi/mockup.png",
   "twitterCard": "summary_large_image"
 },
+"i18n": {
+    "defaultLocale": "fi",
+	 "namespace_strategy": "modules"
+  },
 "supported_languages": ["fi", "en", "sv"],
+  "locale_defaults": {
+    "default_country": "FI",
+    "default_currency": "EUR",
+    "default_timezone": "Europe/Helsinki",
+    "default_vat_mode": "inclusive"
+  },
+"ui": {
+    "theme": {
+      "accentColor": "#2563EB",
+      "radius": "lg",
+      "mode": "system"
+    }
+  },
 "public": {
 	"about": true,
 	"support": true,
@@ -55,7 +73,26 @@
   "matchmaking": false
 },
 "support": {
-  "email": "support@xn--tykkri-eua5l.fi"
-}
+  "email": "support@xn--tykkri-eua5l.fi",
+  "chat": {
+      "enabled": false,
+      "provider": "crisp",
+      "config": {}
+    },
+    "businessHours": {
+      "timezone": "Europe/Helsinki",
+      "hours": [
+        { "weekday": "mon", "from": "09:00", "to": "18:00" },
+        { "weekday": "tue", "from": "09:00", "to": "18:00" },
+        { "weekday": "wed", "from": "09:00", "to": "18:00" },
+        { "weekday": "thu", "from": "09:00", "to": "18:00" },
+        { "weekday": "fri", "from": "09:00", "to": "18:00" }
+      ]
+    }
+},
+  "integrations": {
+    "stripe": { "enabled": true },
+    "supabase": { "enabled": true }
+  }
 }
 
