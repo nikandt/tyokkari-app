@@ -18,7 +18,7 @@
     "url": "https://github.com/nikandt/tyokkari-app/issues"
   },
   "homepage": "https://github.com/nikandt/tyokkari-app#readme",
-  "files": ["dist", "src/styles"],
+  "files": ["src/brand/styles.css", "package.json", "README.md"],
   "exports": {
     "./styles.css": "./src/brand/styles.css"
   },
