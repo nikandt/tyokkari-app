@@ -21,5 +21,6 @@
   "files": ["dist", "src/styles"],
   "exports": {
     "./styles.css": "./src/brand/styles.css"
-  }
+  },
+  "private": true
 }
