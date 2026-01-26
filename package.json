@@ -1,5 +1,5 @@
 {
-  "name": "tyokkari-app",
+  "name": "@pinot/tyokkari-app",
   "version": "0.1.0",
   "author": "Tessa Nikander <me@tessanikander.com> (https://tessanikander.com/)",
   "license": "MIT",
@@ -20,6 +20,6 @@
   "homepage": "https://github.com/nikandt/tyokkari-app#readme",
   "files": ["dist", "src/styles"],
   "exports": {
-    "./styles.css": "./src/brand/tyokkari.css"
+    "./styles.css": "./src/brand/styles.css"
   }
 }
