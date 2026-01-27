@@ -26,7 +26,7 @@
   ],
   "exports": {
     ".": "./src/index.ts",
-    "./landing": "./src/pages/public/LandingTyokkari.tsx",
+    "./landing": "./src/pages/public/Landing.tsx",
     "./styles.css": "./src/brand/styles.css",
     "./assets/*": "./src/assets/img/*"
   },
