@@ -1,38 +1,42 @@
 /* Työkkäri Brand Theme - Teal/Green for Jobs Platform */
 /* Apply these rules to the root element when the brand-tyokkari class is active */
 html.brand-tyokkari {
-    /* Colors (HSL values) */
-    --primary: 173 80% 40%;
+    /* Tehoste (#F79549) */
+    --primary: 26 91% 63%;
     --primary-foreground: 0 0% 100%;
     
-    --secondary: 173 60% 95%;
-    --secondary-foreground: 173 80% 20%;
+	/* Secondary: Light wash of the Tyokkari Slate Blue (#657984) */
+    --secondary: 201 13% 96%;
+    --secondary-foreground: 201 13% 25%;
     
-    --accent: 173 70% 92%;
-    --accent-foreground: 173 80% 35%;
+	/* Accent: Siniharmaa väri (#657984) */
+    --accent: 201 13% 46%;
+    --accent-foreground: 0 0% 100%;
     
-    --ring: 173 80% 40%;
+    --ring: 26 91% 63%;
 
     /* Fonts */
     --font-heading: 'Inter', sans-serif; /* Työkkäri uses Inter for headings */
     --font-body: 'Inter', sans-serif;      /* Työkkäri uses Inter for body */
     
     /* Gradients for hero */
-    --gradient-hero: linear-gradient(120deg, hsl(173 80% 40% / 0.12) 0%, hsl(173 70% 92% / 0.4) 50%, hsl(173 60% 95% / 0.2) 100%);
-    --gradient-pattern: radial-gradient(circle at 30% 30%, hsl(173 80% 40% / 0.1) 0%, transparent 50%), radial-gradient(circle at 70% 70%, hsl(173 70% 50% / 0.08) 0%, transparent 50%), radial-gradient(circle at 50% 90%, hsl(173 60% 60% / 0.06) 0%, transparent 40%);
+    --gradient-hero: linear-gradient(120deg, hsl(26 91% 63% / 0.1) 0%, hsl(201 13% 46% / 0.05) 100%);
+    --gradient-pattern: radial-gradient(circle at 30% 30%, hsl(201 13% 46% / 0.08) 0%, transparent 50%), 
+                        radial-gradient(circle at 70% 70%, hsl(26 91% 63% / 0.05) 0%, transparent 50%);
 }
 
 /* Työkkäri Dark Theme */
 html.dark.brand-tyokkari {
-    --primary: 173 70% 50%;
+    --primary: 26 91% 63%;
     --primary-foreground: 0 0% 100%;
     
-    --accent: 173 32% 22%;
-    --accent-foreground: 173 70% 70%;
+    --accent: 201 10% 35%;
+    --accent-foreground: 201 10% 90%;
     
-    --ring: 173 70% 50%;
+    --ring: 26 91% 65%;
     
     /* Gradients for hero - darker versions */
-    --gradient-hero: linear-gradient(120deg, hsl(173 70% 50% / 0.15) 0%, hsl(173 32% 22% / 0.35) 50%, hsl(173 32% 22% / 0.2) 100%);
-    --gradient-pattern: radial-gradient(circle at 30% 30%, hsl(173 70% 50% / 0.12) 0%, transparent 50%), radial-gradient(circle at 70% 70%, hsl(173 70% 60% / 0.1) 0%, transparent 50%), radial-gradient(circle at 50% 90%, hsl(173 60% 70% / 0.08) 0%, transparent 40%);
+    --gradient-hero: linear-gradient(120deg, hsl(26 91% 63% / 0.15) 0%, hsl(201 13% 46% / 0.1) 100%);
+    --gradient-pattern: radial-gradient(circle at 30% 30%, hsl(201 13% 46% / 0.08) 0%, transparent 50%), 
+                        radial-gradient(circle at 70% 70%, hsl(26 91% 63% / 0.05) 0%, transparent 50%);
 }
