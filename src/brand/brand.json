@@ -14,6 +14,7 @@
 "identity": {
 	"tagline": "Find work, track hours, get paid",
 	"logo_letter": "T",
+	"logo": "assets/img/logo.jpg",
 	"css_class": "brand-tyokkari",
 	"footer_description": "Find freelance, part-time, and full-time work opportunities. Track hours and get paid smoothly."
   },
