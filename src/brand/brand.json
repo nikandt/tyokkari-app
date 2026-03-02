@@ -69,7 +69,7 @@
   "hr_management": true,
   "pricing": true,
   "products": true,
-  "credits": false,
+  "credits": true,
   "integrations": false,
   "matchmaking": true
 },
