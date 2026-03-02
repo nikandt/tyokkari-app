@@ -69,8 +69,8 @@
   "hr_management": true,
   "pricing": true,
   "products": true,
-  "credits": true,
-  "integrations": true,
+  "credits": false,
+  "integrations": false,
   "matchmaking": true
 },
 "support": {
