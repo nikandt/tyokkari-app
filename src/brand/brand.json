@@ -59,19 +59,19 @@
 },
 "features": {
   "home": true,
-  "invoicing": false,
-  "reminders": false,
+  "invoicing": true,
+  "reminders": true,
   "crm": true,
   "jobs": true,
   "billing": true,
   "commissioner_view": true,
   "work_reports": true,
   "hr_management": true,
-  "pricing": false,
-  "products": false,
-  "credits": false,
-  "integrations": false,
-  "matchmaking": false
+  "pricing": true,
+  "products": true,
+  "credits": true,
+  "integrations": true,
+  "matchmaking": true
 },
 "support": {
   "email": "support@xn--tykkri-eua5l.fi",
